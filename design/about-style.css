@@ -20,12 +20,24 @@ p {
   color: black;
 }
 
-.about {
+.content-container {
   padding: 160px 20px;
 }
 
 .content {
   margin: 30px;
+}
+
+.content h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 14px;
+  opacity: 70%;
+  padding-bottom: 25px;
 }
 
 .btn-branding {
@@ -50,7 +62,7 @@ p {
     font-size: 64px;
   }
 
-  .about {
+  .content-container {
     padding: 0;
     text-align: center;
   }
