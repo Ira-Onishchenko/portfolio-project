@@ -11,6 +11,39 @@ h2 {
   color: black;
 }
 
+h4 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  font-size: 16px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #6c63ff;
+  transition: all 150ms ease-in-out;
+}
+
 .information {
   font-family: "Poppins", sans-serif;
   opacity: 70%;
@@ -92,32 +125,43 @@ h2 {
   max-width: 50px;
 }
 
-nav {
-  padding: 20px 0;
+footer {
+  margin: 60px 0;
 }
 
-nav ul {
-  padding: 0;
-  margin: 0;
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
+footer .email-link {
+  color: black;
+  font-size: 24px;
   text-decoration: none;
-  color: #272142;
-  font-size: 16px;
 }
 
-nav a:hover,
-nav li.active a {
+footer .email-link:hover {
   color: #6c63ff;
+}
+
+footer .media-links a {
+  margin: 0 20px;
+  color: #6c63ff;
+  background-color: #f9f7fe;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
   transition: all 150ms ease-in-out;
+}
+
+footer .media-links a:hover {
+  color: white;
+  background-color: #6c63ff;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 @media (max-width: 576px) {
