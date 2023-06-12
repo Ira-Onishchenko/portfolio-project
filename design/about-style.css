@@ -6,10 +6,10 @@ h1 {
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
   color: black;
+  opacity: 60%;
 }
 
 h3 {
@@ -50,7 +50,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: #6c63ff;
+  color: #ff8fe5;
   transition: all 150ms ease-in-out;
 }
 
@@ -65,19 +65,19 @@ footer .contact-box {
 }
 
 footer .email-link {
-  color: black;
+  color: #ff8fe5;
   font-size: 24px;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 
 footer .email-link:hover {
-  color: #6c63ff;
+  color: black;
 }
 
 footer .media-links a {
   margin: 0 20px;
-  color: #6c63ff;
+  color: #ff8fe5;
   background-color: #f9f7fe;
   padding: 10px 14px;
   font-size: 18px;
@@ -87,7 +87,7 @@ footer .media-links a {
 
 footer .media-links a:hover {
   color: white;
-  background-color: #6c63ff;
+  background-color: #ff8fe5;
 }
 
 footer .contact-box p {
@@ -113,18 +113,24 @@ footer .contact-box p {
 .content h3 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
-  font-weight: bold;
+  color: #ff8fe5;
 }
 
-.content p {
-  font-size: 14px;
-  opacity: 70%;
+.content p,
+.contact-link {
+  font-size: 20px;
   padding-bottom: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 .btn-branding {
   display: inline-block;
-  background: #6c63ff;
+  background: #ff8fe5;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -134,13 +140,13 @@ footer .contact-box p {
 }
 
 .btn-branding:hover {
-  background: #6c63ff;
+  background: #ff8fe5;
   color: #272142;
 }
 
 .coming_soon {
-  color: #6c63ff;
-  border: 1px solid #6c63ff;
+  color: #ff8fe5;
+  border: 1px solid #ff8fe5;
   display: inline-block;
   border-radius: 4px;
   font-size: 18px;
@@ -150,18 +156,18 @@ footer .contact-box p {
 }
 
 .coming_soon:hover {
-  background: #6c63ff;
+  background: #ff8fe5;
   color: #ffff;
+}
+
+.open-sourced-link {
+  color: black;
 }
 
 @media (max-width: 900px) {
   h1 {
     text-align: center;
     font-size: 64px;
-  }
-
-  img {
-    display: none;
   }
 
   .content-container {
