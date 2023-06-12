@@ -11,7 +11,7 @@ h2 {
   color: black;
 }
 
-h4 {
+h3 {
   font-size: 48px;
   font-family: "Playfair Display", serif;
 }
@@ -71,7 +71,7 @@ nav li.active a {
 .hero {
   background-color: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
@@ -177,10 +177,6 @@ footer .contact-box p {
 
   img {
     display: none;
-  }
-
-  .hero {
-    padding-top: 100px;
   }
 
   .text {

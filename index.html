@@ -26,29 +26,36 @@
     />
     <link rel="stylesheet" href="design/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="" />
+    <title>Front-end developer Ira Onishchenko</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="logo" />
-        <img
-          src="images/logo-small.jpg"
-          class="small-logo d-block d-md-none"
-          alt="small-logo"
-        />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="small-logo d-block d-md-none"
+            alt="small-logo"
+          />
+        </a>
         <ul>
           <li class="active">
-            <a href="index.html"> Home</a>
+            <a href="index.html" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html" title="About developer page">About</a>
           </li>
           <li>
-            <a href="work.html">Work</a>
+            <a href="work.html" title="Ira's work">Work</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" title="Contact Ira">Contact</a>
           </li>
         </ul>
       </nav>
@@ -58,7 +65,9 @@
       <h1>Iryna Onishchenko</h1>
       <h2 class="mb-5">Front-end developer based in Ukraine</h2>
       <div>
-        <a href="about.html" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding" title="Contact Ira"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="introduction m-5">
@@ -67,7 +76,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/cH4m-yogurt.png" alt="Yogurt" class="img-fluid" />
+          <img
+            src="images/cH4m-yogurt.png"
+            alt="Yogurt project preview"
+            class="img-fluid"
+          />
         </div>
         <div class="col">
           <div class="text">
@@ -78,7 +91,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="info-btn btn btn-branding">Learn more</a>
+            <a href="/work.html" class="info-btn btn btn-branding"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -92,18 +107,24 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="info-btn btn btn-branding">Learn more</a>
+            <a href="/work.html" class="info-btn btn btn-branding"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/jxM9-weather.png" alt="Weather" class="img-fluid" />
+          <img
+            src="images/jxM9-weather.png"
+            alt="Weather app preview"
+            class="img-fluid"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
           <img
             src="images/dgHV-dictionary.png"
-            alt="Dictionary"
+            alt="Dictionary app preview"
             class="img-fluid"
           />
         </div>
@@ -116,36 +137,49 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="info-btn btn btn-branding">Learn more</a>
+            <a href="/work.html" class="info-btn btn btn-branding"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work inquiry</h4>
+            <h3>Work inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Ira"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:me@gmail.com" class="email-link">me@gmail.com</a>
+          <a href="mailto:me@gmail.com" class="email-link" title="Email contact"
+            >me@gmail.com</a
+          >
         </div>
         <div class="media-links d-flex justify-content-center">
           <a href="https:instagram.com/ira" target="_blank">
-            <i class="fa-brands fa-instagram"></i
+            <i class="fa-brands fa-instagram" title="Instagram profile"></i
           ></a>
           <a href="https:twitter.com/ira" target="_blank"
-            ><i class="fa-brands fa-twitter"></i
+            ><i class="fa-brands fa-twitter" title="Twitter profile"></i
           ></a>
-          <a href="https:github.com/ira" target="_blank"
+          <a href="https:github.com/ira" target="_blank" title="GitHub profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded SheCodes, and it's
+          <a href="https://github.com/Ira-Onishchenko">open-sourced</a>
+        </p>
       </footer>
     </div>
   </body>
