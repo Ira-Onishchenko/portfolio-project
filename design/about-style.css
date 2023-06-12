@@ -39,6 +39,7 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 nav a {
@@ -67,6 +68,7 @@ footer .email-link {
   color: black;
   font-size: 24px;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 footer .email-link:hover {
@@ -134,6 +136,22 @@ footer .contact-box p {
 .btn-branding:hover {
   background: #6c63ff;
   color: #272142;
+}
+
+.coming_soon {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.coming_soon:hover {
+  background: #6c63ff;
+  color: #ffff;
 }
 
 @media (max-width: 900px) {
